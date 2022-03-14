@@ -12,4 +12,4 @@ module load cuda/11.0
 conda create --name TF_env python=3.7 anaconda
 source activate TF_env
 conda install -c anaconda tensorflow-gpu -y
-python train_cnn.py
+python train_cnn_resnet.py 
